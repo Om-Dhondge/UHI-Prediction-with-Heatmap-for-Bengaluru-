@@ -1,0 +1,157 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Geospatial & Data
+*.tif
+*.tiff
+*.geotiff
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.qpj
+*.gpkg
+*.gdb
+*.mdb
+
+# Large Data Files
+data/landsat_*.tif
+data/sentinel_*.tif
+*.nc
+*.hdf
+*.h5
+
+# Cache
+cache/
+.cache/
+*.cache
+
+# Logs
+*.log
+logs/
+pipeline_run.log
+
+# OS
+.DS_Store
+Thumbs.db
+.directory
+
+# Temporary Files
+*.tmp
+*.temp
+*.bak
+*.backup
+*~
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Output Files (Optional - uncomment if you want to exclude)
+# outputs/
+# results/
+
+# Model Files (Optional - uncomment if you want to exclude large models)
+# *.pkl
+# *.joblib
+# *.h5
+# *.pt
+# *.pth
+
+# Credentials
+credentials.json
+secrets.json
+*.key
+*.pem
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Compiled Files
+*.o
+*.a
+*.lib
+*.dll
+*.exe
+
+# Node (if using any JS tools)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Git
+.git/
+.gitattributes
+
+# Project Specific
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Misc
+.vscode/settings.json
+.vscode/launch.json
+.vscode/extensions.json
+*.code-workspace
+
