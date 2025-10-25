@@ -1,6 +1,6 @@
 # Urban Heat Island (UHI) Prediction with Heatmap for Bengaluru
 
-## 🌍 Project Overview
+##  Project Overview
 
 This project delivers a **machine learning-based prediction system for Urban Heat Island (UHI) intensity in Bengaluru** using satellite and geospatial data. The pipeline processes LANDSAT satellite imagery and OpenStreetMap data to predict land surface temperature (LST) across a standardized 1km × 1km geographical grid.
 
@@ -8,7 +8,7 @@ This project delivers a **machine learning-based prediction system for Urban Hea
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 ✅ **Use geospatial and satellite-derived features** (LST, NDVI, building density, vegetation cover, road density)
 ✅ **Build standardized geographical grid** (1km × 1km, 824 cells over Bengaluru)
@@ -66,24 +66,21 @@ python main_pipeline.py
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 UHI-Prediction-with-Heatmap-for-Bengaluru/
 ├── uhi_ml_pipeline/                    # Main project directory
-│   ├── 📄 Documentation (10 files)
-│   │   ├── INDEX.md                    # Navigation guide
+│   ├── Documentation (4 files)
 │   │   ├── QUICKSTART.md               # 2-step execution
 │   │   ├── README.md                   # Project overview
-│   │   ├── IMPLEMENTATION_GUIDE.md     # Complete usage guide
-│   │   ├── TECHNICAL_DOCUMENTATION.md  # Architecture & algorithms
 │   │   ├── DATASETS_AND_ACQUISITION.md # Data sources
 │   │   ├── PROJECT_SUMMARY.md          # Executive summary
-│   │   ├── CODE_WALKTHROUGH.md         # Code explanation
-│   │   ├── DELIVERY_SUMMARY.md         # Completion status
-│   │   └── FILE_MANIFEST.md            # File listing
+│   │   
+│   │   
+│   │   
 │   │
-│   ├── 🐍 Python Modules (7 files)
+│   ├── Python Modules (7 files)
 │   │   ├── main_pipeline.py            # Orchestration
 │   │   ├── config.py                   # Configuration
 │   │   ├── data_preparation.py         # Grid creation
@@ -92,7 +89,7 @@ UHI-Prediction-with-Heatmap-for-Bengaluru/
 │   │   ├── visualization.py            # Map generation
 │   │   └── create_sample_data.py       # Sample data
 │   │
-│   ├── 📊 Data
+│   ├── Data
 │   │   ├── data/                       # Input LANDSAT data
 │   │   │   ├── landsat_lst.tif
 │   │   │   └── landsat_ndvi.tif
@@ -106,7 +103,7 @@ UHI-Prediction-with-Heatmap-for-Bengaluru/
 │   │       ├── uhi_heatmap.png
 │   │       └── uhi_interactive_map.html
 │   │
-│   └── 🗂️ Cache & Logs
+│   └── Cache & Logs
 │       ├── cache/                      # OSM data cache
 │       └── pipeline_run.log            # Execution log
 │
@@ -161,7 +158,7 @@ UHI-Prediction-with-Heatmap-for-Bengaluru/
 
 ---
 
-## 🎓 Features
+##  Features
 
 ### Modular Architecture
 - 5 independent, reusable modules
@@ -186,7 +183,7 @@ UHI-Prediction-with-Heatmap-for-Bengaluru/
 
 ---
 
-## 🔄 Pipeline Phases
+##  Pipeline Phases
 
 ### Phase 1: Data Preparation
 - Download Bengaluru boundary from OpenStreetMap
@@ -252,7 +249,7 @@ See [DATASETS_AND_ACQUISITION.md](uhi_ml_pipeline/DATASETS_AND_ACQUISITION.md) f
 
 ---
 
-## 🔍 Key Findings
+##  Key Findings
 
 ### UHI Patterns in Bengaluru
 - **Hot Spots**: City center (urban core) - up to 35.1°C
@@ -284,7 +281,7 @@ See [DATASETS_AND_ACQUISITION.md](uhi_ml_pipeline/DATASETS_AND_ACQUISITION.md) f
 
 ---
 
-## 📝 Requirements
+##  Requirements
 
 See `backend/requirements.txt` for complete dependencies.
 
@@ -304,7 +301,7 @@ numpy>=2.3.3
 
 ---
 
-## 📄 License
+##  License
 
 This project is open source and available under the MIT License.
 
@@ -316,7 +313,7 @@ This project is open source and available under the MIT License.
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - USGS for LANDSAT satellite data
 - OpenStreetMap for geospatial data
@@ -324,7 +321,7 @@ This project is open source and available under the MIT License.
 
 ---
 
-## 📞 Support
+##  Support
 
 For questions or issues:
 1. Check documentation in `uhi_ml_pipeline/`
@@ -332,17 +329,6 @@ For questions or issues:
 3. Examine output files
 4. Refer to library documentation
 
----
-
-## 🎯 Next Steps
-
-1. **Read**: [QUICKSTART.md](uhi_ml_pipeline/QUICKSTART.md)
-2. **Run**: `python main_pipeline.py`
-3. **Explore**: Output files in `outputs/`
-4. **Learn**: Read [IMPLEMENTATION_GUIDE.md](uhi_ml_pipeline/IMPLEMENTATION_GUIDE.md)
-5. **Extend**: Modify code based on [TECHNICAL_DOCUMENTATION.md](uhi_ml_pipeline/TECHNICAL_DOCUMENTATION.md)
-
----
 
 **Status**: ✅ Complete & Tested | **Version**: 1.0 | **Last Updated**: October 25, 2025
 
